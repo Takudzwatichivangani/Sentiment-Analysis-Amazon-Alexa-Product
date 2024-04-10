@@ -6,10 +6,10 @@ The objective of this project is to develop a sentiment analysis model specifica
 Amazon Alexa is a popular voice-controlled virtual assistant developed by Amazon. As the market for smart home devices grows, understanding customer sentiment towards Amazon Alexa products becomes crucial for maintaining a competitive edge. By automating sentiment analysis on customer reviews, we can extract valuable information about the strengths, weaknesses, and overall satisfaction levels associated with Amazon Alexa devices.
 
 # Project Description:
-In this project, we will build a machine learning model for sentiment analysis specifically targeting Amazon Alexa products. The model will be trained on a dataset comprising customer reviews specific to Amazon Alexa devices. The goal is to accurately classify each review as positive, negative, or neutral, thereby providing an assessment of customer sentiment towards the product.
+In this project, we will build a machine learning model for sentiment analysis specifically targeting Amazon Alexa products. The model will be trained on a dataset comprising customer reviews specific to Amazon Alexa devices. The goal is to accurately classify each review as positive or negative, thereby providing an assessment of customer sentiment towards the product.
 
 # Machine Learning Model Predictions:
-The sentiment analysis model will predict the sentiment expressed in customer reviews of Amazon Alexa products. By inputting a review, the model will output one of three classes: positive, negative, or neutral. These predictions will enable us to gauge the overall sentiment distribution, monitor changes over time, and identify specific aspects of the product that receive positive or negative feedback.
+The sentiment analysis model will predict the sentiment expressed in customer reviews of Amazon Alexa products. By inputting a review, the model will output one of three classes: positive or negative. These predictions will enable us to gauge the overall sentiment distribution, monitor changes over time, and identify specific aspects of the product that receive positive or negative feedback.
 
 # Dataset:
 To train and evaluate the sentiment analysis model, we will require a labeled dataset consisting of customer reviews related to Amazon Alexa products. The dataset will include the text of the reviews along with sentiment labels. It is essential to ensure the dataset is representative and covers various aspects of the Alexa devices. The dataset will be preprocessed by removing noise, irrelevant characters, and punctuation marks.
@@ -18,7 +18,7 @@ To train and evaluate the sentiment analysis model, we will require a labeled da
 * Data Collection: Collect Amazon reviews dataset with sentiment labels.
 * Data Preprocessing: Clean the dataset by removing irrelevant characters, punctuation, and noise. Perform text normalization techniques such as lowercasing, stemming, or lemmatization.
 * Feature Extraction: Convert the text data into numerical features that can be used as input for machine learning algorithms. Common techniques include bag-of-words, TF-IDF, or word embeddings.
-* Model Training: Select an appropriate machine learning algorithm, such as logistic regression, support vector machines (SVM), or recurrent neural networks (RNNs). Train the model using the labeled training dataset.
+* Model Training: Select an appropriate machine learning algorithm, such as logistic regression, decision tree classifier or decision random forest classifier. Train the model using the labeled training dataset.
 * Model Evaluation: Evaluate the performance of the trained model on the testing dataset using appropriate metrics such as accuracy, precision, recall, and F1 score.
 * Model Fine-tuning: Optimize the model by fine-tuning hyperparameters or trying different approaches, such as using different word embeddings or deep learning architectures.
 * Model Deployment: Once the model achieves satisfactory performance, deploy it to production and use it to predict the sentiment of new, unseen Amazon reviews.
@@ -28,9 +28,9 @@ To train and evaluate the sentiment analysis model, we will require a labeled da
 The following tools and frameworks can be utilized for implementing this sentiment analysis project:
 
 * Programming Language: Python
-* Data Collection: Amazon API, web scraping libraries (e.g., BeautifulSoup, Selenium)
+* Data Collection: Amazon API, kaggle
 * Data Preprocessing: Python libraries (e.g., NLTK, spaCy, scikit-learn)
-* Feature Extraction: scikit-learn, TensorFlow, Keras
-* Machine Learning Models: scikit-learn, TensorFlow, Keras
+* Feature Extraction: scikit-learn
+* Machine Learning Models: scikit-learn
 * Model Evaluation: scikit-learn, TensorFlow, Keras
-* Model Deployment: Flask, Django, or any other web framework for building APIs
+* Model Deployment: Streamlit
