@@ -1,4 +1,6 @@
 # Sentiment Analysis (Amazon Alexa Product)
+The project "Sentiment Analysis (Amazon Alexa Product)" aims to develop a sentiment analysis model specifically tailored for analyzing customer reviews related to Amazon Alexa devices. Sentiment analysis is the process of determining the sentiment or opinion expressed in a piece of text, and in this case, it focuses on understanding the sentiment towards Amazon Alexa products.
+
 # Project Objective:
 The objective of this project is to develop a sentiment analysis model specifically for Amazon Alexa products. The model will analyze customer reviews related to Amazon Alexa devices and determine the sentiment expressed in those reviews. By understanding the sentiment towards Amazon Alexa products, we aim to gain insights into customer satisfaction, identify areas for improvement, and support decision-making processes related to product development and marketing strategies.
 
