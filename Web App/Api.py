@@ -24,10 +24,10 @@ def preprocess_text(text):
         return ''
 
 # Load model
-model = pickle.load(open('Machine Learning Saved Models/Model_rf.pkl', 'rb'))
+model = pickle.load(open('Model_rf.pkl', 'rb'))
 
 # Load the Count Vectorizer
-cv = pickle.load(open('Machine Learning Saved Models/CountVectorizer.pkl', 'rb'))
+cv = pickle.load(open('CountVectorizer.pkl', 'rb'))
 
 # Function to predict sentiment
 def predict_sentiment(review):
